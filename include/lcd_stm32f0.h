@@ -49,6 +49,7 @@ void lcd_putchar(unsigned char character);
 void lcd_putstring(char *instring);
 
 void pulse_strobe(void);
+void delay(unsigned int microseconds);
 
 //====================================================================
 
